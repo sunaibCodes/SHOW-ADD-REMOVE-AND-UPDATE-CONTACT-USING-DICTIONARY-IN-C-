@@ -16,24 +16,11 @@ namespace dictnary
         }
         public void keyWords()
         {
-            // collections 
-
-            // array , list ,dictionary , stack , queue , hashset   
-
-            // which stores data in key value pair
-
-            // works on basis of keys rather than index 
-
-            // var --- data typs --- data as object 
-
-            //instalisation of dictionary
-
             Dictionary<int, string> students = new Dictionary<int, string>()
-
             {
                 { 101,"sunaib"},
-                { 102,"ahmed"},
-                { 103,"ali"},
+                { 102,"ahmed"},                   
+                { 103,"ali"}, 
                 { 104,"hussain"}
             };
 
@@ -86,7 +73,7 @@ namespace dictnary
             {
                 { 101,"sunaib"},
                 { 102,"murtaza"},
-                { 103,"ali"},
+                { 103,"ali"},                   // CONTACT LIST
                 { 104,"faisal"},
                 { 105,"zamin"},
                 { 106,"kamran"}
